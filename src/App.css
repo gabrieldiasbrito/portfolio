@@ -1,0 +1,9 @@
+.principal{
+    background-color: var(--secondary);
+    height: 100vh;
+    display: flex;
+}
+
+.secondary{
+    background-color: var(--principal);
+}
