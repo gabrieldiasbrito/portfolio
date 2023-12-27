@@ -18,7 +18,7 @@ function Intro() {
           <h1>Front-end Developer👋</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer neque erat, ultrices vitae nisi in, consequat facilisis ligula.</p>
           <div className='icons'>
-            <a href=""><PiGithubLogoBold/></a>
+            <a href=""><PiGithubLogoBold /></a>
             <a href=""><PiLinkedinLogoBold/></a>
           </div>
         </div>
@@ -26,7 +26,7 @@ function Intro() {
       <br />
       <div className='stack'>
         <h3>Tech Stack</h3>
-        <div className='test'>
+        <div>
           <figure>
             <img src={Html} />
             <p>HTML</p>
@@ -52,7 +52,7 @@ function Intro() {
             <p>React Native</p>
           </figure>
         </div>
-        </div>
+      </div>
     </div>
   )
 }

@@ -4,13 +4,12 @@
     max-width: 1000px;
 }
 
+.contactIcon{
+    color: rebeccapurple;
+  }
 .intro {
     display: flex;
     align-items:center;
-}
-
-.intro div{
-    min-width: 600px;
 }
 
 .intro h1{
@@ -40,7 +39,6 @@
 .stack{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     text-align: center;
     height: 100px;
 }
@@ -62,8 +60,6 @@
 .stack h3{
     border-right: 2px solid var(--text);
     padding-right: 10px;
-    margin-right: 10px;
-    line-height: 40px;
 }
 
 @media (max-width: 1060px){
@@ -77,10 +73,6 @@
         text-align: center;
     }
 
-    .intro div{
-        min-width: 100%;
-    }
-
     .intro img{
         margin: 0;
     }
@@ -91,13 +83,12 @@
 
     .stack{
         display: block;
-        margin: 0 auto;
     }
 
     .stack div{
         display: grid;
-        grid-template-columns: 120px 120px;
         background-color: var(--secondary);
+        grid-template-columns: 110px 110px 110px;
         padding: 10px;
     }
 
